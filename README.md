@@ -29,7 +29,7 @@ Project **ATHENA** is a high-performance, real-time Indian Sign Language (ISL) r
 
 ## Work Flow
 
-'''text
+```text
 Camera Input
 ↓
 MediaPipe Hands
@@ -43,7 +43,7 @@ MLP Classification
 Weighted Voting
 ↓
 Character Prediction (A–Z, 0–9)
-'''text
+```
 
 ---
 
