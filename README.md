@@ -1,4 +1,4 @@
-# Project ATHENA: Indian Sign Language (ISL) Recognition
+# THENA: Deep Learning-Based Indian Sign Language (ISL) Recognition System
 
 Project **ATHENA** is a high-performance, real-time Indian Sign Language (ISL) recognition system. It leverages computer vision and deep learning to translate hand gestures into text (0-9, A-Z) with high stability and accuracy.
 
