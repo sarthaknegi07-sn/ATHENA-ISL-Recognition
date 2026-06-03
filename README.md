@@ -1,4 +1,4 @@
-# THENA: Deep Learning-Based Indian Sign Language (ISL) Recognition System
+# ATHENA: Deep Learning-Based Indian Sign Language (ISL) Recognition System
 
 Project **ATHENA** is a high-performance, real-time Indian Sign Language (ISL) recognition system. It leverages computer vision and deep learning to translate hand gestures into text (0-9, A-Z) with high stability and accuracy.
 
@@ -14,11 +14,36 @@ Project **ATHENA** is a high-performance, real-time Indian Sign Language (ISL) r
 
 ---
 
-## 🛠️ Technical Stack
+## Tech Stack
 
-*   **Language**: Python 3.x
-*   **Frameworks**: PyTorch (Deep Learning), MediaPipe (Hand Tracking), OpenCV (Computer Vision).
-*   **Libraries**: NumPy, Scikit-learn, Matplotlib, Tqdm.
+- Python
+- PyTorch
+- MediaPipe
+- OpenCV
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Tqdm
+
+---
+
+## Work Flow
+
+'''text
+Camera Input
+↓
+MediaPipe Hands
+↓
+Landmark Normalization
+↓
+180-D Feature Engineering
+↓
+MLP Classification
+↓
+Weighted Voting
+↓
+Character Prediction (A–Z, 0–9)
+'''text
 
 ---
 
@@ -96,4 +121,4 @@ The core is a Deep Multi-Layer Perceptron (MLP) with 5 hidden layers:
 *   **Mobile Deployment**: Converting the model to ONNX for Android/iOS integration.
 
 ---
-**Developed by [Your Name]** | *Project ATHENA - Empowering communication through technology.*
+**Project ATHENA** – Empowering communication through AI-driven sign language recognition.
