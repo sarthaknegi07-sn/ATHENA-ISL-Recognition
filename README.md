@@ -27,7 +27,7 @@ Project **ATHENA** is a high-performance, real-time Indian Sign Language (ISL) r
 
 ---
 
-## Work Flow
+## Workflow
 
 ```text
 Camera Input
@@ -50,8 +50,7 @@ Character Prediction (A–Z, 0–9)
 ## 🧠 System Architecture
 
 ### 1. Data Pipeline
-The system follows a modular pipeline:
-`Camera Input` → `MediaPipe Hands` → `Normalization` → `Feature Engineering` → `MLP Inference` → `Weighted Voting` → `Final Output`.
+ATHENA processes real-time hand landmarks extracted by MediaPipe, performs geometric feature engineering, and classifies gestures using a deep MLP architecture with temporal stabilization through weighted voting.
 
 ### 2. Feature Engineering (180-Dim Vector)
 Instead of feeding images directly, we extract 90 features per hand (Total 180):
